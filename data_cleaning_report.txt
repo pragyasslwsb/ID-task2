@@ -1,0 +1,37 @@
+
+DATA CLEANING & STRUCTURAL VALIDATION REPORT
+
+1. Objective
+To transform raw data into a clean, consistent, and reliable
+format suitable for analysis.
+
+2. Dataset Overview
+Original rows: 6
+Original columns: 5
+Cleaned rows: 5
+Cleaned columns: 5
+
+3. Cleaning Operations
+- Standardized column names.
+- Removed extra spaces from names.
+- Standardized email text.
+- Converted dates into a consistent format.
+- Removed exact duplicate rows.
+- Marked marks outside the 0-100 range as missing.
+
+4. Structural Validation
+Remaining duplicate rows: 0
+
+Missing values after cleaning:
+student_id    0
+name          0
+email         1
+marks         1
+date          0
+
+5. Conclusion
+The dataset was processed using Python and Pandas.
+Cleaning and validation checks were performed.
+Missing values were retained for review rather than
+being filled with invented information.
+The cleaned dataset was exported as a CSV file.
